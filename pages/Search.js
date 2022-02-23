@@ -8,6 +8,7 @@ import Property from "../components/Property";
 import SearchFilters from "../components/SearchFilters";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
 import noresult from "../public/noresult.svg";
+
 const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
   const router = useRouter();
